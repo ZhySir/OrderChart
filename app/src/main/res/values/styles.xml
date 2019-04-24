@@ -8,4 +8,29 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <!--下单图表-->
+    <declare-styleable name="OrderChart">
+        <!-- 卖线颜色 -->
+        <attr name="bid_color" format="color" />
+        <!-- 买线颜色 -->
+        <attr name="ask_color" format="color" />
+        <!-- 虚线颜色 -->
+        <attr name="line_virtual_color" format="color" />
+        <!-- 现价文本颜色 -->
+        <attr name="text_current_price_color" format="color" />
+        <!-- 显示多少个价格点 -->
+        <attr name="price_point_nums" format="integer" />
+        <!-- Y轴刻度价格颜色 -->
+        <attr name="text_scale_color" format="color" />
+        <!-- Y轴刻度文本宽度 yScaleDataWidth -->
+        <attr name="scale_width_y" format="dimension" />
+        <!-- padding -->
+        <attr name="oc_padding_top" format="dimension" />
+        <attr name="oc_padding_right" format="dimension" />
+        <attr name="oc_padding_bottom" format="dimension" />
+        <attr name="oc_padding_left" format="dimension" />
+        <!-- 文字大小 -->
+        <attr name="oc_text_size" format="integer" />
+    </declare-styleable>
+
 </resources>

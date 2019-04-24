@@ -6,13 +6,22 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
+    <com.zhy.orderchart.view.OrderChart
+        android:id="@+id/orderChart"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layerType="software"
+        app:ask_color="@color/green_3cc28a"
+        app:bid_color="@color/red_f06256"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:line_virtual_color="@color/gray_809b9b9b"
+        app:oc_padding_left="16dp"
+        app:oc_padding_right="16dp"
+        app:text_current_price_color="@color/white"
+        app:text_scale_color="@color/black_262626" />
+
 
 </android.support.constraint.ConstraintLayout>
